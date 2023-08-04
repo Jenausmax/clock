@@ -68,6 +68,10 @@ button {
   transition: border-color 0.25s;
 }
 
+form {
+  margin-bottom: -3em;
+}
+
 .button-color {
   border-color: darkmagenta;
 }

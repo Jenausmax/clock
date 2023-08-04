@@ -21,7 +21,8 @@ const VITE_DEV_SERVER_URL = process.env['VITE_DEV_SERVER_URL']
 function createWindow() {
   win = new BrowserWindow({
     icon: path.join(process.env.PUBLIC, 'electron-vite.svg'),
-    height: 190,
+    height: 300
+    ,
     width: 300,
     alwaysOnTop: true,
     skipTaskbar: true,
