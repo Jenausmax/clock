@@ -13,6 +13,7 @@ function App() {
     <div className='cityBotton'>ИЖЕВСК</div>
     <br></br>
     <div>-------------------------</div>
+    <div className='cityBotton'>ТАЙМЕР</div>
     <InputTimer startTime={0}></InputTimer>
     </>
   )
