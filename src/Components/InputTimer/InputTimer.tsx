@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 export interface InputTimerProps{
     startTime: number
@@ -159,7 +159,6 @@ class InputTimer extends React.Component<InputTimerProps, InputTimerState> {
         this.isStopAudio = false;
         this.btnStyle = "none";
         this.btnStopTimer = "none";
-        document?.getElementById("create-course-form")?.reset();
     }
 
     render() {
