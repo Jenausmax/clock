@@ -1,4 +1,5 @@
 import React from "react";
+import file_sound_patch from "../../wwwroot/audio/time.mp3";
 
 export interface InputTimerProps{
     startTime: number
@@ -15,7 +16,7 @@ export interface InputTimerState{
 }
 
 class InputTimer extends React.Component<InputTimerProps, InputTimerState> {
-    private audio = new Audio('/src/wwwroot/audio/time.mp3');
+    private audio = new Audio(file_sound_patch);
     private btnStyle = "none";
     private isStopAudio = false;
     private btnStopTimer = "none";
